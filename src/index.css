@@ -3,5 +3,25 @@
 @tailwind utilities;
 
 @layer components {
-    
+:root {
+        /* text color */
+        --color-text-base: #848484;
+        --color-text-muted: #0b132b;
+        --color-text-inverted: #4d4d4d;
+        --color-text-navigation: #93b7be;
+        /* background colors */
+        --color-fill: #fdf7fa;
+        --color-fill-accent: #ffffff;
+        --color-fill-focus: #85b1d5;
+        --color-button-accent: #212121;
+        --color-button-accent-hover: #654654;
+        --color-button-muted: #4d7298;
+    }
+
+    .card{
+        @apply w-3/4 m-auto
+    }
+    body{
+        @apply bg-skin-fill
+    }
 }
