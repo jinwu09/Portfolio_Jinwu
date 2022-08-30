@@ -1,6 +1,17 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    keyframes: {
+      expand: {
+        "0%": { transform: "translateX(1400px)" },
+        "100%": { transform: "translateX(0px)" },
+      },
+    },
+    screens: {
+      phone: "400px",
+      desktopsml: "800px",
+      desktoplg: "1000px",
+    },
     extend: {
       colors: {
         primary: "#0b132b",
