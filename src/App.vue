@@ -2,9 +2,9 @@
 
 <template>
   <nav
-    class="grid grid-cols-8 bg-skin-fill-accent pl-2 pr-2 text-skin-base shadow-lg shadow-slate-600"
+    class="fixed z-[1] grid w-[100%] bg-transparent pl-6 pr-2 text-skin-base phone:grid-cols-[50%_20%_30%] desktopsml:grid-cols-[75%_10%_15%] desktoplg:grid-cols-[80%_10%_10%]"
   >
-    <div class="col-span-6 p-2">
+    <div class="p-2">
       <h1 class="">Porftolio</h1>
     </div>
     <div class="p-2">
