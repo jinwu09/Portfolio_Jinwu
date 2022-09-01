@@ -8,12 +8,13 @@
         --color-text-base: #848484;
         --color-text-muted: #0b132b;
         --color-text-inverted: #4d4d4d;
-        --color-text-navigation: #93b7be;
+        --color-text-navigation: #2b6ddd;
+        --color-text-button-accent-inverted: #073e52;
         /* background colors */
         --color-fill: #fdf7fa;
         --color-fill-accent: #ffffff;
         --color-fill-focus: #85b1d5;
-        --color-button-accent: #212121;
+        --color-button-accent: #43beed;
         --color-button-accent-hover: #654654;
         --color-button-muted: #4d7298;
     }

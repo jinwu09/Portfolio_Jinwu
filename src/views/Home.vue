@@ -1,6 +1,14 @@
+<script>
+import CookieBannerVue from "../components/CookieBanner.vue";
+export default {
+  components: {
+    CookieBannerVue,
+  },
+};
+</script>
 <template>
   <div
-    class="fixed flex h-[100vh] w-[100%] animate-[expand_0.8s_ease_forwards] bg-skin-fill-accent text-skin-base"
+    class="fixed flex h-[100vh] w-[100%] animate-[expand_0.8s_ease_forwards] flex-col bg-skin-fill-accent text-skin-base"
   >
     <div class="m-auto">
       <p class="text-center text-5xl">ALBERT JOHN B. SANTOS</p>
@@ -24,12 +32,7 @@
           <p>jinwu09</p>
         </a>
       </div>
-      <!-- <p>Known Porgraming Language</p>
-        <p>Dart</p>
-        <p>C</p>
-        <p>Known Web Framework stack</p>
-        <p>VueJS, Vue Router, Pinia,</p>
-        <p>Flutter</p> -->
     </div>
+    <CookieBannerVue />
   </div>
 </template>

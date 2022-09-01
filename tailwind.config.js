@@ -24,6 +24,7 @@ module.exports = {
           muted: "var(--color-text-muted)",
           inverted: "var(--color-text-inverted)",
           navigation: "var(--color-text-navigation)",
+          "button-accent-inverted": "var(--color-text-button-accent-inverted)",
         },
       },
       backgroundColor: {
