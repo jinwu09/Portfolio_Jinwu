@@ -6,6 +6,14 @@ module.exports = {
         "0%": { transform: "translateX(1400px)" },
         "100%": { transform: "translateX(0px)" },
       },
+      slideup: {
+        "0%": { transform: "translateY(1400px)" },
+        "100%": { transform: "translateY(0px)" },
+      },
+      slidedown: {
+        "0%": { transform: "translateY(0px)" },
+        "100%": { transform: "translateY(1400px)" },
+      },
     },
     screens: {
       phone: "400px",

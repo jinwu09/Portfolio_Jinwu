@@ -1,12 +1,15 @@
 <script>
 import CookieBannerVue from "../components/CookieBanner.vue";
+import NavbarVue from "../components/Navbar.vue";
 export default {
   components: {
     CookieBannerVue,
+    NavbarVue,
   },
 };
 </script>
 <template>
+  <NavbarVue class="fixed z-[1] bg-transparent" />
   <div
     class="fixed flex h-[100vh] w-[100%] animate-[expand_0.8s_ease_forwards] flex-col bg-skin-fill-accent text-skin-base"
   >
