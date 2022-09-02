@@ -6,7 +6,9 @@
       <h1 class="">Porftolio</h1>
     </div>
     <div class="p-2">
-      <router-link to="Home" class="text-center">Home</router-link>
+      <router-link to="Home" class="text-center text-skin-base"
+        >Home</router-link
+      >
     </div>
     <div class="p-2">
       <p>Contact Info</p>
