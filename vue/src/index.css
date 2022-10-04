@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+    a{
+        @apply text-skin-navigation
+    }
 :root {
         /* text color */
         --color-text-base: #848484;
